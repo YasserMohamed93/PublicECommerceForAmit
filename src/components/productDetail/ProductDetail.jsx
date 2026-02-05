@@ -18,7 +18,7 @@ function ProductDetail({ product }) {
 
   return (
     <Container>
-      <div className="mt-5 d-flex justify-content-center ">
+      <div className="mt-5 d-flex flex-column flex-lg-row justify-content-center ">
         <div className="">
           {/* <Image src={product.images}  /> */}
           <Carousel fade controls indicators>
