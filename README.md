@@ -1,16 +1,23 @@
-# React + Vite
+# E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is my way of creating an ecommerce online shopping WebApplication getting its Products and users from DummyJson.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For more info on DUmmyJson Visite Web Site:
 
-## React Compiler
+https://dummyjson.com/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<span style="color:red">Note:</span>
+<span style="color:red">This is just a front end so you can add to cart but there is not backend processing</span>
 
-## Expanding the ESLint configuration
+![OverViewImage](./ReadMeImg/Overview.png "HomePage")
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Authentication
+
+For login you can use the DummyJson userNameand password
+
+UserName:emilys
+Password:emilyspass
+
+---
