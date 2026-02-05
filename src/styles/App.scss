@@ -1,0 +1,8 @@
+@import 'variables';
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: grayscale(100%) brightness(60%);
+}
