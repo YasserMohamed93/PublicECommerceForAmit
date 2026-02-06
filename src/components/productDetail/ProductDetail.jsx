@@ -20,11 +20,10 @@ function ProductDetail({ product }) {
     <Container>
       <div className="mt-5 d-flex flex-column flex-lg-row justify-content-center ">
         <div className="">
-          {/* <Image src={product.images}  /> */}
           <Carousel fade controls indicators>
             {product.images.map((image, i) => (
               <Carousel.Item key={i}>
-                <Image src={image} alt="HERO_1" style={{ width: "500px" }} />
+                <Image src={image} alt="error" style={{ width: "500px" }} />
               </Carousel.Item>
             ))}
           </Carousel>

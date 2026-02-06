@@ -3,6 +3,7 @@ import { SiWoocommerce } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { LogoutButton } from "../LogoutButton/LogoutButton";
 import { useSelector } from "react-redux";
+import { IMAGES } from "../../constants/images";
 
 export const Navbar = () => {
   // Select isLoggedIn
@@ -14,7 +15,11 @@ export const Navbar = () => {
         <Container>
           {/* Brand */}
           <BNavbar.Brand to="/" as={Link}>
-            <SiWoocommerce className="display-1" />
+            <img
+              src={IMAGES.WebBrand}
+              style={{ width: "50px" }}
+              className="rounded-circle"
+            />
           </BNavbar.Brand>
 
           {/* Toggler */}
